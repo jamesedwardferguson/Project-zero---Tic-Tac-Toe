@@ -1,0 +1,55 @@
+/*#background {
+  background-position: cover;
+  top: 0;
+  left: 0;
+}*/
+
+body {
+  background-color: tan;
+  display: inline;
+  text-align: center;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: monospace;
+  color: white;
+  margin: 2% auto;
+}
+
+
+#container {
+  width: 480px;
+  height: 480px;
+  margin: 12px auto 20px auto;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.square {
+  width: 156px;
+  height: 156px;
+  float: left;
+  background-color: lightblue;
+  border: 2px solid darkblue;
+}
+
+#players {
+  width: 150px;
+  margin: 15px auto 15px auto; 
+}
+
+.player1, .player2 {
+  margin: 20px;
+  width: 110px;
+  height: 25px;
+  padding-left: 4px;
+  padding-top: 1px;
+  background-color: white;
+  border: 1px thin black;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 20px;
+}
